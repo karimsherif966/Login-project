@@ -1,0 +1,46 @@
+:root{
+    --primary-color:#24353F;
+    --sec-color:#17A2B8;
+}
+body{
+    background-color: var(--primary-color);
+}
+h1{
+    color: var(--sec-color);
+    
+}
+input::placeholder {
+    color: #B6B6B6 !important;
+  }
+.form-control:focus{
+    box-shadow: none !important;
+  }
+button{
+    border: 1px solid var(--sec-color) !important;
+    color: var(--sec-color) !important;
+  }
+button:hover{
+    background-color: var(--sec-color) !important;
+    color: white !important;
+  }
+  
+#sign-up:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+  }
+.login-card , .welcome-card, nav{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.63);
+  }
+  #nameInUse,#wrongName, #emailInUse, #wrongEmail, #wrongPassword,#success,#wrongInput{
+    display:none;
+  }
+  a{
+    transition: 0.5s;
+  }
+  a:hover{
+    filter: brightness(150%);
+  }
+  .cust-width{
+    width: 68%;
+  }

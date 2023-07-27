@@ -1,0 +1,54 @@
+<html lang="en" id>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-card mt-5 p-5 w-75 m-auto">
+            <h1 class="text-center">Smart Login System</h1>
+            <input type="text" name="name" id="nameSignUp"  class="form-control mt-3 mb-3 bg-transparent text-white" placeholder="Enter your name">
+            <input type="email" name="email" id="emailSignUp" class="form-control mt-3 mb-3 bg-transparent text-white" placeholder="Enter your email">
+            <input type="password" name="password" id="passwordSignUp" class="form-control bg-transparent mb-4 text-white" placeholder="Enter your password">
+            <p class="text-center text-danger" id="nameInUse">This name is already in use</p>
+            <p class="text-center text-danger" id="wrongName">The name should be 3 letters or more</p>
+            <p class="text-center text-danger" id="emailInUse">This email is already in use</p>
+            <p class="text-center text-danger" id="wrongEmail">Invalid email</p>
+            <div class="text-center text-danger" id="wrongPassword">
+                <p>Invalid password</p>
+                <p >The password should be at least 8 characters long, A combination of uppercase letters, lowercase letters, numbers, and symbols.
+                </p>
+            </div>
+            <p class="text-center text-success fw-bold" id="success">Success</p>
+            <button class="btn w-100 " onclick="signUp()">Sign Up</button>
+            <p class="text-white text-center mt-3">You have an account? <a href="index.html" class="text-decoration-none fw-bolder text-info">Login</a></p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap javascript file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Javascript -->
+    <script src="index.js"></script>
+
+    
+</body>
+</html>
